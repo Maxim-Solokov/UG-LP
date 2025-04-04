@@ -1,0 +1,68 @@
+version=2.1.0
+# UG-DOS English Language Pack for Ver. 2.1.0
+# Cube/Undersoft Official Version
+
+# Front (DON'T change line to strings below if you want to translate this pack successfully and without any wrongs)
+[ERRR] 
+[INFO] 
+[WARN] 
+[FTER] 
+
+# Configure
+--------------------------
+-- Welcome to UG-DOS --
+--------------------------
+Please set a password for the root account:
+Please set your username:
+Please set your password:
+Please confirm your password:
+Passwords do not match. Please try again.
+Configuration completed! Time to explore the system!
+
+# Login
+UG-DOS Login System Ver. 2.1.0
+Username:
+Username does not exist.
+Password:
+Incorrect password.
+Welcome,
+
+# Command Lines
+UG-DOS (Underground Disk Operating System) Version 2.1.0
+Copyright Undersoft (201X-202X), All rights reserved.
+Not a valid command statement, executable file, or command line included in the UG-DOS module
+
+# Help Page
+Help Page  
+The 'rewritten' UG-DOS is currently in the 'early access phase'.
+Features available in this phase may not represent the complete functionality of the official release.
+The feature list may be subject to additions or removals.
+- -
+Currently supported commands are as follows:  
+ver (--update/-u) - Display version information/check for updates
+adduser/au <--admin/-a | --guest/-g> <username> <password> <2nd_password> - Add an account (requires permissions)
+switchuser/su <username> <password> - Switch to an existing account (requires permissions)
+deleteuser/du <deleting_username> <--confirm> - Delete an existing account (requires permissions)
+password/passwd (username) <password> <2nd_password> - Change password for the current/existing account ((username) requires permissions)
+user <--list | --add | --remove | --changepw> - User menu; for add, remove, and changepw, refer to the corresponding commands.
+language/lang <--list | --change/-c | update> (language) - Language settings
+help - Display the help page
+echo ('string') - Return the content within the string
+exit (--confirm/-c) - Exit UG-DOS
+update <--all/-a | --lang/-l> - Check/perform full updates or language pack updates
+- -  
+The meanings of bracketed content you may see in output messages are as follows:  
+'[ERRR]' - Basic error, usually caused by irregular operations  
+For "critical errors," refer to '[FTER]'  
+'[INFO]' - As shown on this page, indicates information or tips; its appearance is normal  
+'[WARN]' - Warning for sensitive operations, usually appears during critical actions; proceed with caution  
+'[FTER]' - Critical termination. Usually appears during crashes/module failures  
+This message indicates the system is no longer operational; a restart is recommended  
+- END -  
+Note: This page was written on April 5, 2025  
+- Cube
+
+# Exit the DOS
+Are you sure you want to shut down UG-DOS? You may lose unsaved data.
+Operation interrupted.
+Goodbye.
