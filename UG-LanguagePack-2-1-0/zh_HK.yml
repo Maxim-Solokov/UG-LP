@@ -1,0 +1,75 @@
+version=2.1.0  
+# UG-DOS 繁體中文（香港）語言包 for Ver. 2.1.0  
+# Cube/Undersoft 官方版本  
+
+# Front (請勿更改以下字串的行位以確保翻譯正確無誤)  
+[ERRR]   
+[INFO]   
+[WARN]   
+[FTER]   
+
+# Configure  
+-----------------------  
+-- 歡迎使用 UG-DOS --  
+-----------------------  
+請為 root 帳戶設定密碼:  
+請設定您的用戶名稱:  
+請設定您的密碼:  
+為確認密碼，請重新輸入一次:  
+兩次輸入的密碼不相符，請重新輸入。  
+設定完成！現在可以開始探索系統了！  
+
+# Login  
+UG-DOS 登入系統 Ver. 2.1.0  
+用戶名稱:  
+用戶名稱不存在。  
+密碼:  
+密碼錯誤。  
+歡迎，  
+
+# Command Lines  
+UG-DOS（地下世界磁碟操作系統）Version 2.1.0  
+版權所有 Undersoft（201X-202X），保留所有權利。  
+並非有效的指令語句、可執行檔案或 UG-DOS 模組包含的指令行  
+
+# Help Page  
+說明頁面  
+『重寫後』的 UG-DOS 目前處於「早期體驗階段」。  
+此階段開放的功能不代表正式版的完整功能。  
+功能清單可能會有所增減。  
+- -  
+目前已支援的指令如下:  
+ver (--update/-u) - 顯示版本資訊／檢查更新  
+adduser/au <--admin/-a | --guest/-g> <username> <password> <2nd_password> 新增帳戶（需權限）  
+switchuser/su <username> <password> - 切換至現有帳戶（需權限）  
+deleteuser/du <deleting_username> <--confirm> - 刪除現有帳戶（需權限）  
+password/passwd (username) <password> <2nd_password> - 修改當前／指定帳戶密碼（(username)需權限）  
+user <--list | --add | --remove | --changepw> - 用戶選單（add、remove 及 changepw 請參照對應指令）  
+language/lang <--list | --change/-c | update> (language) - 語言設定  
+help - 顯示說明頁面  
+echo ('string') - 回傳字串內容  
+exit (--confirm/-c) - 結束 UG-DOS  
+update <--all/-a | --lang/-l> - 檢查／執行完整更新或語言包更新  
+- -  
+輸出訊息中括號內容的含義如下:  
+'[ERRR]' - 基礎錯誤，通常因操作不當引致  
+有關「嚴重錯誤」請參照 '[FTER]'  
+'[INFO]' - 如本頁所示，屬提示資訊，出現屬正常現象  
+'[WARN]' - 敏感性操作警告，通常於關鍵操作時出現，請務必小心  
+'[FTER]' - 嚴重終止。通常於系統崩潰／模組失效時出現  
+此訊息代表系統已無法運作，建議重新啟動  
+- END -  
+註：本頁面編寫於 2025 年 4 月 5 日  
+- Cube  
+
+# Exit the DOS  
+你確定要關閉 UG-DOS 嗎？未儲存的資料可能會遺失。  
+操作已中斷。  
+再見。
+
+# Add User
+新的用戶名稱：
+密碼：
+確認密碼：
+兩次輸入的密碼不相符，請重新輸入。
+完成。
